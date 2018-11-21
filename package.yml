@@ -1,6 +1,6 @@
 name       : perl-cpan-changes
 version    : '0.400002'
-release    : 2
+release    : 3
 source     :
     - https://cpan.metacpan.org/authors/id/H/HA/HAARG/CPAN-Changes-0.400002.tar.gz : 01eedea90d07468cb58e4a50bfa3bb1d4eeda9073596add1118fc359153abe8d
 license    : Artistic-1.0-Perl
