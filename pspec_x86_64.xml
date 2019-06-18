@@ -19,7 +19,7 @@ authors to write clear and concise Changes.
 This module will help users programmatically read and write Changes
 files that conform to the specification.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>perl-cpan-changes</Name>
@@ -38,12 +38,12 @@ files that conform to the specification.
         <PartOf>programming.perl</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin/tidy_changelog</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/CPAN/Changes.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/CPAN/Changes/Group.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/CPAN/Changes/Release.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/CPAN/Changes/Spec.pod</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/Test/CPAN/Changes.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/auto/CPAN/Changes/.packlist</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/CPAN/Changes.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/CPAN/Changes/Group.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/CPAN/Changes/Release.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/CPAN/Changes/Spec.pod</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/Test/CPAN/Changes.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/auto/CPAN/Changes/.packlist</Path>
             <Path fileType="man">/usr/share/man/man1/tidy_changelog.1</Path>
             <Path fileType="man">/usr/share/man/man3/CPAN::Changes.3</Path>
             <Path fileType="man">/usr/share/man/man3/CPAN::Changes::Group.3</Path>
@@ -53,8 +53,8 @@ files that conform to the specification.
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2018-11-21</Date>
+        <Update release="4">
+            <Date>2019-06-15</Date>
             <Version>0.400002</Version>
             <Comment>Packaging update</Comment>
             <Name>Pierre-Yves</Name>
